@@ -1,4 +1,4 @@
-# MRI Data Analysis for Gliomas Tumors
+# MedCLIP Glioma Classification Pipeline
 
 This repository contains code for analyzing MRI data related to gliomas tumors using deep learning techniques. The project is organized into two main modules: `finetuning` and `scripts`, each with their own main execution file.
 
