@@ -60,7 +60,7 @@ This repository contains code for analyzing MRI data related to gliomas tumors u
 
 ### Running Fine-tuning
 
-To run the fine-tuning pipeline:
+To run the `finetuning` pipeline:
 ```bash
 python finetuning/main.py
 ```
