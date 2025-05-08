@@ -41,7 +41,7 @@ def evaluate_clip_top1(model, dataloader, device):
             total += similarity.size(0)
 
     accuracy = correct / total
-    print(f"🎯 Zero-shot Top-1 Accuracy: {accuracy:.2%}")
+    print(f"Zero-shot Top-1 Accuracy: {accuracy:.2%}")
     return accuracy
 
 # === Optional: Run from script ===
