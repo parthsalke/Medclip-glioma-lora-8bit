@@ -11,17 +11,23 @@ This repository contains code for analyzing MRI data related to gliomas tumors u
 
 1. **Clone this repository:**
    ```bash
-   git clone [your-repository-url]
-   cd [repository-name]
+   git clone https://github.com/parthsalke/Medclip-glioma-lora-8bit
+   cd Medclip-glioma-lora-8bit
    ```
 
 2. **(Recommended) Create a virtual environment:**
+   On Mac:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate 
+   ```
+   On Windows: 
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
    ```
 
-3. **Install dependencies:**
+4. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
@@ -31,23 +37,23 @@ This repository contains code for analyzing MRI data related to gliomas tumors u
 ```
 .
 ├── finetuning/
-│   ├── file1.py
-│   ├── file2.py
-│   ├── file3.py
-│   ├── file4.py
+│   ├── dataloader_transform.py
+│   ├── evaluate.py
+│   ├── lora_quantization.py
+│   ├── train.py
 │   └── main.py
 ├── scripts/
-│   ├── script1.py
-│   ├── script2.py
-│   ├── script3.py
-│   ├── script4.py
+│   ├── dataloader_&_finetuning_pipeline.py
+│   ├── extract_t1c_files_1modality.py
+│   ├── img_text_pair.py
+│   ├── nifti3d_to_2dpng.py
 │   └── main.py
 ├── requirements.txt
-└── ...
+└── README.md
 ```
 
 - **finetuning/**: Contains scripts for model fine-tuning.
-- **scripts/**: Contains utility and data processing scripts.
+- **scripts/**: Contains data extraction, utility and data processing scripts.
 
 ## Usage
 
@@ -75,11 +81,3 @@ python scripts/main.py
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
-
-## License
-
-[Add your license information here]
-
-## Contact
-
-[Add your contact information here] 
