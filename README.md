@@ -16,6 +16,7 @@ This repository contains code for analyzing MRI data related to gliomas tumors u
    ```
 
 2. **(Recommended) Create a virtual environment:**
+   
    On Mac:
    ```bash
    python -m venv venv
