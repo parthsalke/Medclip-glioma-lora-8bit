@@ -2,6 +2,8 @@
 
 This repository contains code for analyzing MRI data related to gliomas tumors using deep learning techniques. The project is organized into two main modules: `finetuning` and `scripts`, each with their own main execution file.
 
+This repository implements an end-to-end pipeline for **preprocessing, fine-tuning, and evaluating a medical Vision-Language Model (VLM)** on Glioma MRI scans. It fine-tunes pretrained [PubMedCLIP](https://huggingface.co/flaviagiammarino/pubmed-clip-vit-base-patch32) using **LoRA adapters**, **8-bit quantization**, and supervised contrastive learning, and is fully modular and container-ready.
+
 ## Requirements
 
 - Python 3.7+
