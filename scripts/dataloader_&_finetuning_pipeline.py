@@ -86,8 +86,6 @@ organize_split(test_df, "test")
 from datasets import Dataset, DatasetDict, Features, Value, Image
 from huggingface_hub import login
 
-# 👇 Authenticate (only once)
-login(token="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")
 
 # === Define helper to load one split ===
 def load_split(split_name, base_dir):
