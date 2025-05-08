@@ -1,5 +1,7 @@
 # MedCLIP Glioma Classification Pipeline
 
+[![View on Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&style=for-the-badge)](https://huggingface.co/parthsalke/medclip-glioma-lora-8bit)
+
 Approximately half of all primary brain tumors are glial cell neoplasms (Gliomas), and more than three quarters of all gliomas are astrocytoma.
 
 This repository implements an end-to-end pipeline for **preprocessing, fine-tuning, and evaluating a medical Vision-Language Model (VLM)** on Glioma MRI scans. It fine-tunes pretrained [PubMedCLIP](https://huggingface.co/flaviagiammarino/pubmed-clip-vit-base-patch32) model using Supervised Fine-tuning using **LoRA adapters**, **8-bit quantization**, and supervised contrastive learning, and is fully modular and container-ready, [MedCLIP](https://huggingface.co/parthsalke/medclip-glioma-lora-8bit)
