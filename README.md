@@ -4,7 +4,7 @@ This repository contains code for analyzing MRI data related to gliomas tumors u
 
 ## Requirements
 
-- Python 3.x
+- Python 3.7+
 - See `requirements.txt` for all dependencies
 
 ## Installation
