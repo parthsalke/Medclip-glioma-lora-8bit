@@ -91,8 +91,7 @@ python scripts/main.py
 | Model                           | Zero-shot Top-5% accuracy           | AUC (%) |
 |--------------------------------|--------------------------------------|---------|
 | **MedCLIP (8-bit)**            | **74%**                              |**76.2** |
-| MedCLIP (Vanilla)              | 64%                                  | 54.9    |
-| PubMedCLIP (Finetuned)         | 45%                                  | 54.7    |
+| PubMedCLIP (Vanilla)           | 45%                                  | 54.7    |
 | Llava Med_v1.5                 | 71%                                  | 62.3    |
 | OpenAI- CLIP (Vanilla)         | 57%                                  | 45.3    |
 
